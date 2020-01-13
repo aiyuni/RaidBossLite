@@ -12,7 +12,7 @@
             <input type=submit value=Upload>
         </form>
         {%if name %}
-            <strong>Hello there, {{ name }}!</strong> It's {{ date.strftime("%A, %d %B, %Y at %X") }}.
+            This shouldn't print.
         {% else %}
             Upload your photo above!
         {% endif %}
